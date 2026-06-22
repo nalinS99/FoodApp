@@ -1,0 +1,68 @@
+@import "tailwindcss";
+:root {
+  --font-taviraj: "Taviraj", serif;
+  --font-open-sans: "Open Sans", sans-serif;
+}
+
+.title-font {
+  font-family: var(--font-taviraj);
+}
+
+body {
+  font-family: var(--font-open-sans);
+}
+
+.text-title-3x-large {
+  @apply text-[48px] leading-[52px] md:text-[80px] md:leading-[80px];
+}
+
+.text-title-2x-large {
+  @apply text-[40px] leading-[44px] md:text-[62px] md:leading-[64px];
+}
+
+.text-title-x-large {
+  @apply text-[32px] leading-[38px] md:text-[48px] md:leading-[52px];
+}
+
+.text-title-large {
+  @apply text-[24px] leading-[28px] md:text-[36px] md:leading-[40px];
+}
+
+.text-title-medium {
+  @apply text-[20px] leading-[28px] md:text-[32px] md:leading-[40px];
+}
+
+.text-title-base {
+  @apply text-[18px] leading-[26px] md:text-[24px] md:leading-[32px];
+}
+
+.text-title-small {
+  @apply text-[16px] leading-[26px] md:text-[18px] md:leading-[26px];
+}
+
+.text-body-large {
+  @apply text-[18px] leading-[28px] md:text-[24px] md:leading-[40px];
+}
+
+.text-body-medium {
+  @apply text-[16px] leading-[26px] md:text-[20px] md:leading-[28px];
+}
+
+.text-body-base {
+  @apply text-[16px] leading-[26px] md:text-[18px] md:leading-[32px];
+}
+
+.text-body-small {
+  @apply text-[14px] leading-[26px] md:text-[16px] md:leading-[26px];
+}
+
+.text-body-caption {
+  @apply text-[12px] leading-[20px] md:text-[12px] md:leading-[20px];
+}
+
+.text-body-xs {
+  @apply text-[10px] leading-[15px];
+}
+
+
+
